@@ -1,0 +1,24 @@
+package lib;
+
+public class Calculation_lib {
+private int m,n;
+	
+    public Calculation_lib(int m, int n) {
+		
+		this.m = m;
+		this.n = n;
+	}
+	
+  public int getPlus(){
+	  return m+n;
+	 }
+  public double getMinus(){
+	  return m-n;
+	 }
+  public double getProduct(){
+	  return m*n;	
+	 }
+  public double getDivide(){
+	  return m/n;
+	 }
+}
